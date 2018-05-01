@@ -70,9 +70,13 @@ a:hover {
   border-radius: 50%;
 }
 
-.inline li {
-  display:inline-block;
-  padding: 0 30px;
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
 }
 
 .fab {
