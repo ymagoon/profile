@@ -26,7 +26,6 @@ feednami.load(url)
 
   for(let entry of feed.entries){
     if (!(entry.categories === undefined || entry.categories.length == 0)) {
-      console.log(entry.title);
 
       // find the last div just created
       let div = document.getElementsByClassName('section-white align-center')
